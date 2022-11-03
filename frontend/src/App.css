@@ -1,0 +1,64 @@
+body {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAPCAQAAAC/mnxTAAAAIUlEQVR4AWPc7sywl4GBgUSScTsD6YBsbYPNkaOOHHUkALSqN8mc6mmTAAAAAElFTkSuQmCC");
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 40vmin; */
+  pointer-events: none;
+  height: 17vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logos {
+    border-radius: 20px;
+  }
+}
+.routable-logo {
+  width: 500px;
+}
+.routable-logo > path {
+  fill: #3e55ff !important;
+  /* fill: #226 !important; */
+}
+
+.App-header {
+  /* background-color: #0c1919; */
+  /* background-color: #10182b; */
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+  color: #10182b;
+}
+
+.ma {
+  max-width: 400px !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
