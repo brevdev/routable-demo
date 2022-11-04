@@ -1,11 +1,5 @@
-# docker-django-redis-celery
-Initial configuration of Docker Django Redis Celery
+# Routable & Brev demo
 
-## Getting Started
-This project works on Python 3+ and Django 2+.
-Simply, run the following command:
-```
-docker-compose up --build
-```
+This is a repo with a react app on Node v14, Dockerized backend w/ Django, Redis, and Celery
 
-Follow me on IG for more: https://www.instagram.com/coderasha
+[![](https://uohmivykqgnnbiouffke.supabase.co/storage/v1/object/public/landingpage/pill-border-lg.png)](https://console.brev.dev/environment/new?repo=https://github.com/brevdev/routable-demo&instance=4x16)
