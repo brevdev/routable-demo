@@ -1,5 +1,5 @@
 start-backend:
-	docker-compose up --build
+	docker-compose up
 
 start-frontend:
 	cd frontend && npm run start
